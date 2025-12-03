@@ -27,7 +27,7 @@ dispatch(registerReuest())
 
         dispatch(registerFailure(error.message));
     }
-}
+}   
 
 
 const loginReuest=()=>({type:LOGIN_REQUEST});
@@ -85,3 +85,4 @@ export const logout=()=>(dispatch)=>{
     dispatch({type:LOGOUT,payload:null})
 
 }
+
